@@ -1,54 +1,60 @@
-//header
-const header = document.createElement('header');
-const headerLogo = document.createElement('div');
-headerLogo.className = "header_logo";
-const logoImg = document.createElement('img');
-logoImg.src = "./assets/icons/header_logo.svg";
-logoImg.alt = "";
-logoImg.className = "logo";
-headerLogo.appendChild(logoImg);
+//let main = document.querySelector('main')
+//let header = document.querySelector('header')
 
-const headerWrapper = document.createElement('div');
-headerWrapper.className = "header_wrapper";
 
-const headerLinks = [
-    { href: "#", imgSrc: "./assets/icons/header-icon1.svg", imgAlt: "", span: "Все курсы" },
-    { href: "#", span: "Мероприятия" },
-    { href: "#", span: "Базы знаний" },
-    { href: "#", span: "Карьера" },
-    { href: "#", imgSrc: "./assets/icons/header-icon2.svg", imgAlt: "", span: "Нижний Новгород" },
-    { href: "#", span: "8 800 950-33-98" },
-    { href: "#", imgSrc: "./assets/icons/header-icon3.svg", imgAlt: "", span: "Войти" }
-];
-headerLinks.forEach(link => {
-    const a = document.createElement('a');
-    a.href = link.href;
-    if (link.imgSrc) {
-        const img = document.createElement('img');
-        img.src = link.imgSrc;
-        img.alt = link.imgAlt;
-        a.appendChild(img);
-    }
-    const span = document.createElement('span');
-    span.textContent = link.span;
-    a.appendChild(span);
-    headerWrapper.appendChild(a);
-});
-header.appendChild(headerLogo);
-header.appendChild(headerWrapper);
+// create //a 
+//let headerLogo = document.createElement('div')
+//let inHeaderImg = document.createElement('img')
+//let headerWrapper = document.createElement('div')
+//let a = document.createElement('a')
+//let img = document.createElement('img')
+//let span = document.createElement('span')
 
-//main
-const main = document.createElement('main');
-const section = document.createElement('section');
-const h1 = document.createElement('h1');
-h1.textContent = "Все программы обучения";
-section.appendChild(h1);
+//let a2 = document.createElement('a')
+//let span2 = document.createElement('span')
 
-const sectionContainer = document.createElement('div');
-sectionContainer.className = "section-container";
+//let a3 = document.createElement('a')
+//let span3 = document.createElement('span')
 
-const babies = [
-    { imgSrc: "./assets/img/children.png", h3: "Дети", p: "8 — 14 лет" },
-    { imgSrc: "./assets/img/teenagers.png", h3: "Подростки", p: "15 — 18 лет" },
-    { imgSrc: "./assets/img/children.png", h3: "Взрослые", p: "19-100"},
-]
+//let a4 = document.createElement('a')
+//let span4 = document.createElement('span')
+
+//let a5 = document.createElement('a')
+//let img2 = document.createElement('img')
+//let span5 = document.createElement('span')
+
+//let a6 = document.createElement('a')
+//let span6 = document.createElement('span')
+
+//let a7 = document.createElement('a')
+//let img3 = document.createElement('img')
+//let span7 = document.createElement('span')
+
+//let section = document.querySelector('section')
+//let h1 = document.createElement('h1')
+//let sectionContainer = document.createElement('div')
+
+//let baby = document.createElement('div')
+//let img4 = document.createElement('img')
+//let babyTitle = document.createElement('div')
+//let h3 = document.createElement('h3')
+//let p = document.createElement('p')
+
+//let baby2 = document.createElement('div')
+//let img5 = document.createElement('img')
+//let babyTitle2 = document.createElement('div')
+//let h32 = document.createElement('h3')
+//let p2 = document.createElement('p')
+
+//let baby3 = document.createElement('div')
+//let img6 = document.createElement('img')
+//let babyTitl3 = document.createElement('div')
+//let h33 = document.createElement('h3')
+//let p3 = document.createElement('p')
+
+//let bigHr = document.createElement('hr')
+
+//let checkingLvl = document.createElement('div')
+//let sectionMargin = document.createElement('div')
+
+//let h2 = document.createElement('h2')
